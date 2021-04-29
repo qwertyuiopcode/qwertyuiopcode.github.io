@@ -22,8 +22,8 @@
             "clientSecret": "5a966e069f1fd6aba15122cffe1513096e4b936d",
             "repo": "qwertyuiopcode.github.io",
             "owner": "qwertyuiopcode",
-            "admin": ["qwertyuiopcode"],   
-            "distractionFreeMode": false  
+            "admin": ["qwertyuiopcode"],
+            "distractionFreeMode": false
         }
     }
 }

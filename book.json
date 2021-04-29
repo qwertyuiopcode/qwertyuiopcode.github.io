@@ -5,7 +5,8 @@
     "isbn": "978-7-864-10240-9",
     "plugins": [
         "tbfed-pagefooter",
-        "hide-element"
+        "hide-element",
+        "mygitalk"
     ],
     "pluginsConfig": {
         "tbfed-pagefooter": {
@@ -15,6 +16,14 @@
         },
         "hide-element": {
             "elements": [".gitbook-link"]
+        },
+        "mygitalk": {
+            "clientID": "1ab403a66e19e88a5212",
+            "clientSecret": "5a966e069f1fd6aba15122cffe1513096e4b936d",
+            "repo": "qwertyuiopcode.github.io",
+            "owner": "qwertyuiopcode",
+            "admin": ["qwertyuiopcode"],   
+            "distractionFreeMode": false  
         }
     }
 }

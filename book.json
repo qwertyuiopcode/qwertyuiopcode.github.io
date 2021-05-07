@@ -28,7 +28,7 @@
         },
         "extra-html": {
             "header": {
-                "files": [ 
+                "files": [
                     "1.html"
                 ]
             }

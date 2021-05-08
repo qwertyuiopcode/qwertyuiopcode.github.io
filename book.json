@@ -4,17 +4,12 @@
     "description": "光射向远方……",
     "isbn": "978-7-864-10240-9",
     "plugins": [
-        "tbfed-pagefooter",
         "hide-element",
         "mygitalk",
-        "extra-html"
+        "extra-html",
+        "page-footer-ex"
     ],
     "pluginsConfig": {
-        "tbfed-pagefooter": {
-            "copyright": "Copyright &copy 张灵 2021",
-            "modify_label": "  该文件修订时间：",
-            "modify_format": "YYYY-MM-DD HH:mm:ss"
-        },
         "hide-element": {
             "elements": [ ".gitbook-link" ]
         },
@@ -33,6 +28,12 @@
                     "1.html"
                 ]
             }
+        },
+        "page-footer-ex": {
+            "copyright": "Copyright &copy 张灵 2021",
+            "markdown": false,
+            "update_label": "<i>  该文件修订时间：</i>",
+            "update_format": "YYYY-MM-DD HH:mm:ss"
         }
     }
 }

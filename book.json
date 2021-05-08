@@ -24,7 +24,8 @@
             "repo": "qwertyuiopcode.github.io",
             "owner": "qwertyuiopcode",
             "admin": [ "qwertyuiopcode" ],
-            "distractionFreeMode": false
+            "distractionFreeMode": false,
+            "proxy": "https://cors-private-qwertyuiopcode.herokuapp.com/https://github.com/login/oauth/access_token"
         },
         "extra-html": {
             "header": {

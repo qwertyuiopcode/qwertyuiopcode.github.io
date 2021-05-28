@@ -16,14 +16,16 @@ jobs:
             
     - name: install nodejs
       uses: actions/setup-node@v2
+      with:
+        node-version: '16'
     
     - name: update npm
       run: |
-        npm install npm@latest
+        npm install -g npm@latest
       
     - name: configure gitbook
       run: |
-        npm install gitbook-cli 
+        npm install -g gitbook-cli 
         #sed -i '62,64d' /opt/hostedtoolcache/node/12.16.1/x64/lib/node_modules/gitbook-cli/node_modules/npm/node_modules/graceful-fs/polyfills.js
         #sed -i '25d' /home/runner/.gitbook/versions/3.2.3/node_modules/npm/node_modules/aproba/index.js
         gitbook install

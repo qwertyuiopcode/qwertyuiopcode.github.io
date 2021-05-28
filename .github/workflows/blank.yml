@@ -21,9 +21,7 @@ jobs:
       
     - name: configure gitbook
       run: |
-        npm install -g cnpm --registry=https://registry.npm.taobao.org
-        cnpm install -g gitbook-cli 
-        sed -i '62,64d' /opt/hostedtoolcache/node/14.17.0/x64/lib/node_modules/gitbook-cli/node_modules/_npm@5.1.0@npm/node_modules/graceful-fs/polyfills.js
+        npm install -g gitbook-cli 
         gitbook install
                 
     - name: generate _book folder

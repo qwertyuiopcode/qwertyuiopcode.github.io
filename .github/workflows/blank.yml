@@ -19,7 +19,7 @@ jobs:
     
     - name: update npm
       run: |
-        npm install -g npm@latest
+        npm install npm@latest
       
     - name: configure gitbook
       run: |

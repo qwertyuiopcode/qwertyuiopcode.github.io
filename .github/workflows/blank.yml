@@ -16,6 +16,8 @@ jobs:
             
     - name: install nodejs
       uses: actions/setup-node@v2
+    
+    - name: update npm
       run: |
         npm install -g npm@latest
       

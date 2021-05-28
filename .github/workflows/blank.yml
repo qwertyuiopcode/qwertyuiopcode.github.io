@@ -27,6 +27,7 @@ jobs:
       run: |
         npm install -g gitbook-cli 
         sed -i '62,64d' /opt/hostedtoolcache/node/16.2.0/x64/lib/node_modules/gitbook-cli/node_modules/npm/node_modules/graceful-fs/polyfills.js
+        gitbook install
         sed -i '25d' /home/runner/.gitbook/versions/3.2.3/node_modules/npm/node_modules/aproba/index.js
         gitbook install
                 

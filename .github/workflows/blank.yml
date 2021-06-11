@@ -27,10 +27,8 @@ jobs:
       run: |
         npm install -g gitbook-cli 
         sed -i '62,64d' /opt/hostedtoolcache/node/16.2.0/x64/lib/node_modules/gitbook-cli/node_modules/npm/node_modules/graceful-fs/polyfills.js
-        npm install gitbook-plugin-hide-element
-        npm install gitbook-plugin-mygitalk
-        npm install gitbook-plugin-page-footer-ex
-        npm install gitbook-plugin-extra-html
+        wget https://cdn.jsdelivr.net/gh/qwertyuiopcode/picturebed@main/script/python/3/gitbookplugin.py
+        python3 gitbookplugin.py
                 
     - name: generate _book folder
       run: |

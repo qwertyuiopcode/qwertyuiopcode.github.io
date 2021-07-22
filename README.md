@@ -1,3 +1,5 @@
+[![auto-generate-gitbook](https://github.com/qwertyuiopcode/qwertyuiopcode.github.io/actions/workflows/blank.yml/badge.svg?branch=master)](https://github.com/qwertyuiopcode/qwertyuiopcode.github.io/actions/workflows/blank.yml)
+
 # Introduction
 
 我终于迈出了这一步。

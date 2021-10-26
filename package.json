@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "gitbook-plugin-extra-html": "^1.0.1",
+    "gitbook-plugin-hide-element": "^0.0.4",
+    "gitbook-plugin-mygitalk": "^0.2.6",
+    "gitbook-plugin-page-footer-ex": "^0.1.2"
+  }
+}
